@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segundo Desafio Módulo 1</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
+</head>
+<body>
+  <div class="container">
+    <h1>Pesquisa de usuários:</h1>
+    <form class="col s12">
+      <div class="row">
+        <div class="col s12">
+          <label id="labelInputBusca" for="inputBusca">Busca:</label>
+          <input type="text" id="inputBusca" />
+          <button id="btnBuscar" class="btn waves-effect waves-light" type="button" name="action">Buscar</button>
+        </div>
+      </div>
+    </form>
+
+    <div id="divFilteredUsers">
+      <span id="spanFilteredUsersCount">Nenhum usuário filtrado</span>
+    </div>
+    <div id="divUsersStatistics">
+      <span id="spanStatisticsTitle">Nada a ser exibido</span>
+    </div>
+  </div>
+    
+  <script src="./js/scripts.js"></script>
+  <script src="./js/materialize.js"></script>
+</body>
+</html>

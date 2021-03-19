@@ -1,0 +1,43 @@
+body {
+  padding: 10px;
+}
+
+.container {
+  margin: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#divFilteredUsers,
+#divUsersStatistics {
+  width: 45%;
+  margin: 20px;
+  float: left;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 20px 20px 20px;
+}
+
+.divUsersData,
+.divStatisticsData {
+  padding: 10px;
+}
+
+.picture {
+  cursor: none;
+}
+
+#spanFilteredUsersCount {
+  font-size: x-large;
+}
+
+#spanStatisticsTitle {
+  font-size: x-large;
+}
+
+#labelInputBusca {
+  font-size: 1rem;
+  font-weight: bold;
+}
