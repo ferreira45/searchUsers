@@ -2,12 +2,6 @@ Projeto com finalidade de mostrar o uso de javascript para manipular dados atrav
 
 -----------------------------------------------------
 
-Para instalar as dependências do frontend:
-
-1) Entrar na pasta frontend utilizando o comando: cd frontend
-2) Executar o comando npm install
-
------------------------------------------------------
 
 Para iniciar o backend:
 
